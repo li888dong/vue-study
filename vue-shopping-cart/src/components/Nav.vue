@@ -1,9 +1,14 @@
 <script>
   export default {
-    name:'Nav',
+    name: 'Nav',
     data(){
-      return{
-        totalItem:'2'
+      return {
+
+      }
+    },
+    computed: {
+      cart () {
+        return this.$store.getters.cart
       }
     }
   }
@@ -11,13 +16,20 @@
 <template>
   <nav class="navbar navbar-default">
     <div class="container-fluid">
-      <div class="nav-header">
-        <a href="#" class="nav-brand" router-link="{path:'/'}">Shopping Cart</a>
+      <div class="navbar-header">
+        <router-link to="index" class="navbar-brand" tag="a">购物车</router-link>
       </div>
       <div class="collapse navbar-collapse">
         <ul class="nav navbar-nav">
-          <router-link to="index" tag="li">iPhone 6S <span></span></router-link>
-          <router-link to="cart" tag="li">购物车<span class="badge text-danger" v-text="totalItem" v-if="totalItem"></span></router-link>
+          <li>
+            <router-link to="index" tag="a">iPhone 6S <span></span></router-link>
+          </li>
+          <li>
+            <router-link to="cart" tag="a">购物车<span class="badge text-danger" v-text="cart.length"
+                                                    v-if="cart.length"></span></router-link>
+
+          </li>
+
         </ul>
       </div>
     </div>
@@ -28,4 +40,10 @@
     color: #fff;
     background-color: #d9534f;
   }
+
+  .navbar-nav li {
+    cursor: pointer;
+    padding: 0 4px;
+  }
+
 </style>

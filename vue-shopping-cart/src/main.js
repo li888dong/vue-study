@@ -3,18 +3,14 @@
 import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
+import store from './vuex/store'
 
 Vue.config.productionTip = false
-
-// For every new route scroll to the top of the page
-// router.beforeEach(function () {
-//   window.scrollTo(0,0)
-// });
-
 
 new Vue({
   el: '#app',
   router,
+  store,
   template: '<App/>',
   components: { App }
 })
