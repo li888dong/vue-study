@@ -18,6 +18,12 @@
         changePrice:function (...args) {
           this.$store.dispatch('CHANGE_PRICE',args)
         },
+        countIncrease:function () {
+          this.$store.dispatch('COUNT_INCREASE')
+        },
+        countDecrease:function () {
+          this.$store.dispatch('COUNT_DECREASE')
+        },
         addItem:function () {
           this.show = true;
           let that = this;
@@ -77,6 +83,19 @@
                   </ul>
                 </dd>
               </dl>
+              <dl class="option dl-horizontal">
+                <dt>
+                  购买数量：
+                </dt>
+
+                <dd>
+                  <div class="input-group">
+                  <span class="btn input-group-addon" v-bind:class="{'btn-primary':iPhone6S.count!==1}" @click="countDecrease()">-</span>
+                    <input id="count" type="text" class="form-control form-horizonal" v-model="iPhone6S.count">
+                  <span class="btn btn-primary input-group-addon" @click="countIncrease()">+</span>
+                  </div>
+                </dd>
+              </dl>
             </div>
             <hr>
             <button class="btn btn-danger btn-block" @click="addItem()" :disabled="iPhone6S.isSelected">
@@ -87,6 +106,15 @@
       </div>
 </template>
 <style>
+  .input-group{
+    width: 120px;
+  }
+  .input-group input{
+    text-align: center;
+  }
+  .input-group span{
+    cursor: pointer;
+  }
   .absolute{
     position: absolute;
   }

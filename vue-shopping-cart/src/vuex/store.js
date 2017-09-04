@@ -19,6 +19,7 @@ const state = {
     activePrice:'',
     activeStorage:'',
     activeStyle:'',
+    count:0,
     activeStyleUrl: 'http://o8yu724qs.bkt.clouddn.com/iphone6s-silver-select-2015.png',
     storage: {
       '16GB': 5288,

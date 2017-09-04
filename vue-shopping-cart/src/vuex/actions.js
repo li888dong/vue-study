@@ -37,6 +37,18 @@ export default {
       resolve("ok");
     })
   },
+  'COUNT_DECREASE':function(store){
+    return new Promise(function(resolve, reject) {
+      store.commit(types.COUNT_DECREASE);
+      resolve("ok");
+    })
+  },
+  'COUNT_INCREASE':function(store){
+    return new Promise(function(resolve, reject) {
+      store.commit(types.COUNT_INCREASE);
+      resolve("ok");
+    })
+  },
   'ADD_ITEM':function(store , args){
     return new Promise(function(resolve, reject) {
       store.commit(types.ADD_ITEM, args);
