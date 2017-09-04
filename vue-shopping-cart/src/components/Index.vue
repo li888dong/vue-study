@@ -3,7 +3,7 @@
     name:'Index',
     data(){
       return{
-
+        show:false
       }
     },
     computed: {
@@ -19,6 +19,11 @@
           this.$store.dispatch('CHANGE_PRICE',args)
         },
         addItem:function () {
+          this.show = true;
+          let that = this;
+          setTimeout(function () {
+            that.show = false;
+          },10);
           this.$store.dispatch('ADD_ITEM')
         }
     }
@@ -31,6 +36,11 @@
           <div class="col-md-6 col-sm-6">
             <img :src="iPhone6S.activeStyleUrl" alt="iPhone6" class="img-responsive">
           </div>
+          <transition name="addCart">
+            <div class="col-md-6 col-sm-6 absolute" v-if="show">
+              <img :src="iPhone6S.activeStyleUrl" alt="iPhone6" class="img-responsive">
+            </div>
+          </transition>
           <div class="detail col-md-6 col-sm-6">
             <h3 class="name"><span v-text="iPhone6S.name"></span></h3>
             <hr>
@@ -77,6 +87,24 @@
       </div>
 </template>
 <style>
+  .absolute{
+    position: absolute;
+  }
+  .addCart-leave-active {
+    animation: addCart 0.5s ease-out;
+  }
+  @keyframes addCart {
+    0% {
+      transform: scale(1) translate(0,0);
+      transform-origin: left top;
+
+    }
+    100% {
+      transform: scale(0) translate(-100px,-100px);
+      transform-origin: left top;
+
+    }
+  }
   .pomegranage {
     color: #c0392b;
   }

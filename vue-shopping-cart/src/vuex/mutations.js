@@ -23,12 +23,11 @@ export default{
     const type = activeStyle + '，' +  state.iPhone6S.activeStorage;
     const cartInfo = {
       type: type,
-      count: 1,
-      price: state.iPhone6S.price * this.count
+      count:1,
+      price: state.iPhone6S.price
     };
 
     state.cart.push(cartInfo)
-
   },
   [REMOVE_ITEM] (state, index) {
     state.cart.splice(index,1)
