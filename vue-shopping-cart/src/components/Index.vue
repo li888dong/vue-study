@@ -38,16 +38,16 @@
 </script>
 <template>
   <div class="container">
-      <div class="row col-md-offset-2 col-md-offset-2 col-md-8 col-sm-8">
-          <div class="col-md-6 col-sm-6">
+      <div class="row col-md-offset-1 col-sm-offset-2 col-md-10 col-sm-10">
+          <div class="col-md-6 col-sm-8">
             <img :src="iPhone6S.activeStyleUrl" alt="iPhone6" class="img-responsive">
           </div>
           <transition name="addCart">
-            <div class="col-md-6 col-sm-6 absolute" v-if="show">
+            <div class="col-md-6 col-sm-8 absolute" v-if="show">
               <img :src="iPhone6S.activeStyleUrl" alt="iPhone6" class="img-responsive">
             </div>
           </transition>
-          <div class="detail col-md-6 col-sm-6">
+          <div class="detail col-md-6 col-sm-8">
             <h3 class="name"><span v-text="iPhone6S.name"></span></h3>
             <hr>
             <div class="options">
