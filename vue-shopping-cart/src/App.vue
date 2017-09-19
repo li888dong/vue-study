@@ -7,6 +7,9 @@
 
             }
         },
+        computed: {
+
+        },
         components:{
             'cart-nav':Nav
         }
