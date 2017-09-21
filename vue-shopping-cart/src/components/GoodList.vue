@@ -64,6 +64,9 @@
     </div>
 </template>
 <style>
+    .container{
+        margin-left: 0;
+    }
     img{
         margin: 0;
     }

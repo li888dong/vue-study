@@ -38,6 +38,15 @@
                         <router-link to="cart" tag="a">购物车<span class="badge text-danger" v-text="cart.length"
                                                               v-if="cart.length"></span></router-link>
                     </li>
+
+                </ul>
+                <ul class="nav navbar-nav pull-right">
+                    <li>
+                        <router-link to="login" tag="a">登陆</router-link>
+                    </li>
+                    <li>
+                        <router-link to="register" tag="a">注册</router-link>
+                    </li>
                 </ul>
             </div>
         </div>
