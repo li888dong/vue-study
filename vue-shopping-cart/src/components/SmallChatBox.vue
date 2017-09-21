@@ -240,12 +240,9 @@
     .small-chat-box .form-chat {
         padding: 10px 10px;
     }
-    .small-chat-box .form-chat .input-group{
-        display: block;
-    }
     .small-chat-box .form-chat .form-control {
         text-align: left;
-        width: 141px;
+        width: 135px;
     }
     .small-chat-box .form-chat .myGreen-btn{
         color: white;

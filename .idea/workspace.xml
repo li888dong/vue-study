@@ -3,16 +3,13 @@
   <component name="ChangeListManager">
     <list id="052f2dae-a8d2-4f53-97b1-770a6eff9915" name="Default" comment="" />
     <list default="true" id="bb03bf49-cae9-40c3-a63f-26cb9def56d0" name="Default task" comment="format code">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vue-shopping-cart/src/components/SmallChatBox.vue" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vue-shopping-cart/dist/static/css/app.da4c3b39f97cf9d89289366114d04403.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vue-shopping-cart/dist/static/css/app.da4c3b39f97cf9d89289366114d04403.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vue-shopping-cart/dist/static/js/app.d117c2012a988abc2def.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vue-shopping-cart/dist/static/js/app.d117c2012a988abc2def.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vue-shopping-cart/dist/static/js/manifest.c7c698000adf0795acce.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vue-shopping-cart/dist/static/js/manifest.c7c698000adf0795acce.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vue-shopping-cart/dist/static/css/app.a7d9adc2b140227cfad3d3c73f12f8d1.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vue-shopping-cart/dist/static/css/app.a7d9adc2b140227cfad3d3c73f12f8d1.css.map" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vue-shopping-cart/dist/index.html" afterPath="$PROJECT_DIR$/vue-shopping-cart/dist/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vue-shopping-cart/src/App.vue" afterPath="$PROJECT_DIR$/vue-shopping-cart/src/App.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vue-shopping-cart/dist/static/js/app.f76987c10474b9fb33a2.js.map" afterPath="$PROJECT_DIR$/vue-shopping-cart/dist/static/js/app.f76987c10474b9fb33a2.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vue-shopping-cart/dist/static/js/manifest.40dcdc2a15c8ded2ad55.js.map" afterPath="$PROJECT_DIR$/vue-shopping-cart/dist/static/js/manifest.40dcdc2a15c8ded2ad55.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vue-shopping-cart/src/components/SmallChatBox.vue" afterPath="$PROJECT_DIR$/vue-shopping-cart/src/components/SmallChatBox.vue" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -44,7 +41,7 @@
         <entry file="file://$PROJECT_DIR$/vue-shopping-cart/dist/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="81">
-              <caret line="3" column="485" lean-forward="false" selection-start-line="3" selection-start-column="485" selection-end-line="3" selection-end-column="485" />
+              <caret line="3" column="492" lean-forward="false" selection-start-line="3" selection-start-column="484" selection-end-line="3" selection-end-column="492" />
               <folding />
             </state>
           </provider>
@@ -73,8 +70,8 @@
       <file leaf-file-name="SmallChatBox.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vue-shopping-cart/src/components/SmallChatBox.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="509">
-              <caret line="250" column="20" lean-forward="false" selection-start-line="250" selection-start-column="20" selection-end-line="250" selection-end-column="20" />
+            <state relative-caret-position="175">
+              <caret line="243" column="25" lean-forward="true" selection-start-line="243" selection-start-column="25" selection-end-line="243" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -97,9 +94,12 @@
       <find>form</find>
       <find>input-group</find>
       <find>form-chat</find>
+      <find>/static</find>
+      <find>block</find>
     </findStrings>
     <replaceStrings>
       <replace>李栋</replace>
+      <replace>./static</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -362,7 +362,7 @@
       <workItem from="1505875347340" duration="903000" />
       <workItem from="1505890609571" duration="619000" />
       <workItem from="1505974321154" duration="98000" />
-      <workItem from="1505974901419" duration="5728000" />
+      <workItem from="1505974901419" duration="6095000" />
     </task>
     <task id="LOCAL-00002" summary="format code">
       <created>1505791894847</created>
@@ -375,7 +375,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25929000" />
+    <option name="totallyTimeSpent" value="26296000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -790,14 +790,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vue-shopping-cart/src/components/SmallChatBox.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="509">
-          <caret line="250" column="20" lean-forward="false" selection-start-line="250" selection-start-column="20" selection-end-line="250" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vue-shopping-cart/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="509">
@@ -806,10 +798,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/vue-shopping-cart/src/components/SmallChatBox.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="243" column="25" lean-forward="true" selection-start-line="243" selection-start-column="25" selection-end-line="243" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/vue-shopping-cart/dist/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="81">
-          <caret line="3" column="485" lean-forward="false" selection-start-line="3" selection-start-column="485" selection-end-line="3" selection-end-column="485" />
+          <caret line="3" column="492" lean-forward="false" selection-start-line="3" selection-start-column="484" selection-end-line="3" selection-end-column="492" />
           <folding />
         </state>
       </provider>
