@@ -11,9 +11,9 @@
 
         },
         methods:{
-          login:function () {
-
-          }
+            login:function () {
+                this.$router.push('/goodList')
+            }
         },
         components:{
 
@@ -37,7 +37,7 @@
                 <div class="form-group">
                     <input type="password" class="form-control" placeholder="密码" required="" v-model="password">
                 </div>
-                <button type="submit" class="btn btn-primary block full-width m-b" @click="">登 录</button>
+                <button type="submit" class="btn btn-primary block full-width m-b" @click="login()">登 录</button>
 
 
                 <p class="text-muted text-center"> <a href="#"><small>忘记密码了？</small></a> | <router-link to="register" tag="a">注册一个新账号</router-link>
