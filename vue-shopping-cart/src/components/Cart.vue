@@ -79,6 +79,11 @@
     }
     .qrcode{
         top:0;
+        background-color: rgba(33,33,33,.5);
+        display: flex;
+        flex-flow: row;
+        justify-content: space-around;
+        align-items: center;
     }
     .slide-fade-enter-active {
         transition: all .3s ease;
