@@ -60,22 +60,22 @@
         position: relative;
     }
     .cart ul {
-    padding: 0;
+        padding: 0;
     }
 
     .cart ul> li {
-    list-style: none;
-    padding: 4px 8px;
+        list-style: none;
+        padding: 4px 8px;
     }
 
     .cart-empty {
-    padding: 100px;
-    border-radius: 4px;
-    border: 2px dashed rgb(170, 170, 170);
+        padding: 100px;
+        border-radius: 4px;
+        border: 2px dashed rgb(170, 170, 170);
     }
     .pomegranage {
-    color: #c0392b;
-    cursor: pointer;
+        color: #c0392b;
+        cursor: pointer;
     }
     .qrcode{
         top:0;

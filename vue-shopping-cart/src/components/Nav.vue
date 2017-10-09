@@ -8,7 +8,7 @@
         },
         computed: {
             cart () {
-              return this.$store.getters.cart
+                return this.$store.getters.cart
             }
         }
     }

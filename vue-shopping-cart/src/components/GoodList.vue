@@ -6,14 +6,16 @@
                 goodsInfo:[{
                     name:'iPhone 8',
                     price:'￥5888',
-                    description:'Apple iPhone 8 (A1863) 64GB 金色 移动联通电信4G手机',
+                    description:'Apple iPhone 8 (A1863) 64GB 银色 移动联通电信4G手机',
+                    imgSrc:'http://o8yu724qs.bkt.clouddn.com/iphone6s-silver-select-2015.png',
                     comments:['便宜好用'],
                     source:'京东Apple产品专营店',
                     market:'自营'
                 },{
                     name:'iPhone 8',
                     price:'￥5888',
-                    description:'Apple iPhone 8 (A1863) 64GB 金色 移动联通电信4G手机',
+                    description:'Apple iPhone 8 (A1863) 64GB 灰色 移动联通电信4G手机',
+                    imgSrc:'http://o8yu724qs.bkt.clouddn.com/iphone6s-gray-select-2015.png',
                     comments:['快递很快'],
                     source:'京东Apple产品专营店',
                     market:'自营'
@@ -21,13 +23,15 @@
                     name:'iPhone 8',
                     price:'￥5888',
                     description:'Apple iPhone 8 (A1863) 64GB 金色 移动联通电信4G手机',
+                    imgSrc:'http://o8yu724qs.bkt.clouddn.com/iphone6s-gold-select-2015.png',
                     comments:['手机垃圾'],
                     source:'京东Apple产品专营店',
                     market:'自营'
                 },{
                     name:'iPhone 8',
                     price:'￥5888',
-                    description:'Apple iPhone 8 (A1863) 64GB 金色 移动联通电信4G手机',
+                    description:'Apple iPhone 8 (A1863) 64GB 玫瑰色 移动联通电信4G手机',
+                    imgSrc:'http://o8yu724qs.bkt.clouddn.com/iphone6s-rosegold-select-2015.png',
                     comments:[],
                     source:'京东Apple产品专营店',
                     market:'自营'
