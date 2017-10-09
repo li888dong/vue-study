@@ -55,7 +55,7 @@
     <div class="container" @click="gotoIndex()">
         <div class="row" id="list-container">
             <div class="col-md-2 col-md-offset-1"  v-for="goodInfo in goodsInfo">
-                <img v-bind:src="goodInfo.imgSrc" alt="iphone8">
+                <img v-bind:src="goodInfo.imgSrc" alt="iphone8" class="img-responsive">
                 <div class="goodInfo">
                     <p><span class="red">{{goodInfo.name}}</span></p>
                     <p class="description">{{goodInfo.description}}</p>
@@ -79,7 +79,7 @@
     }
     #list-container>div{
         width: 220px;
-        height: 400px;
+        height: 425px;
         padding:0;
     }
     #list-container>div:hover{

@@ -6,7 +6,7 @@ import mutations from './mutations'
 Vue.use(Vuex);
 const state = {
     iPhone6S: {
-        name: 'Apple/苹果 iPhone 6S',
+        name: 'Apple/苹果 iPhone 8',
         desc: '3D Touch、1200万像素照片、4k视频，强大功能于一身。',
         price: '5288 - 6888',
         isSelected: true,

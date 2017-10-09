@@ -29,7 +29,7 @@
                 <ul>
                     <li v-for="(item, index) in cart">
                         <span class="pomegranage glyphicon glyphicon-remove-circle" @click="removeItem(index)"></span>
-                        <span>Apple/苹果 iPhone6s</span>
+                        <span>Apple/苹果 iPhone8</span>
                         <span class="label label-success" v-text="item.type"></span>
                         <span class="label label-danger" v-text="item.count"></span>
                         <span class="cart-price pomegranage pull-right" v-text="item.price"></span>
