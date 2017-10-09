@@ -55,7 +55,7 @@
     <div class="container" @click="gotoIndex()">
         <div class="row" id="list-container">
             <div class="col-md-2 col-md-offset-1"  v-for="goodInfo in goodsInfo">
-                <img src="https://img10.360buyimg.com/n7/jfs/t9085/22/907696059/71305/93f88c62/59b85847N20776d8e.jpg" alt="iphone8">
+                <img v-bind:src="goodInfo.imgSrc" alt="iphone8">
                 <div class="goodInfo">
                     <p><span class="red">{{goodInfo.name}}</span></p>
                     <p class="description">{{goodInfo.description}}</p>
