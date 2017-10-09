@@ -54,7 +54,7 @@
 <template>
     <div class="container" @click="gotoIndex()">
         <div class="row" id="list-container">
-            <div class="col-md-2 col-md-offset-1"  v-for="goodInfo in goodsInfo">
+            <div class="col-md-2 col-md-offset-1 col-xs-10 col-xs-offset-3"  v-for="goodInfo in goodsInfo">
                 <img v-bind:src="goodInfo.imgSrc" alt="iphone8" class="img-responsive">
                 <div class="goodInfo">
                     <p><span class="red">{{goodInfo.name}}</span></p>
@@ -74,9 +74,15 @@
     img{
         margin: 0;
     }
-    #list-container{
-        width: 1440px;
+    @media screen and (min-width:1000px){
+        #list-container{
+            width: 1440px;
+        }
     }
+
+    /*#list-container{*/
+        /*width: 1440px;*/
+    /*}*/
     #list-container>div{
         width: 220px;
         height: 425px;
